@@ -1,8 +1,8 @@
 package com.example.linux.mapsaplicacion.api;
 
-import com.example.linux.mapsaplicacion.models.Inmuebles;
+import com.example.linux.mapsaplicacion.models.WifiGratis;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -12,6 +12,6 @@ import retrofit2.http.GET;
  */
 
 public interface DatosApi {
-    @GET("rvmt-7x4r.json")
-    Call<ArrayList<Inmuebles>> obtenerListaInmuebles();
+    @GET("f4kx-n3nn.json")
+    Call<List<WifiGratis>> obtenerListaPeajes();
 }
